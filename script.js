@@ -6,69 +6,69 @@
 // ─── TEAM DATA ───────────────────────────────────────────
 const teamData = {
   pankaj: {
-    lead: { initials:'PJ', name:'Pankaj Joshi', role:'Production Security', bg:'linear-gradient(135deg,#059669,#047857)', dept:'Security' },
-    leadTeam: ['Amol','Ritesh','Snehal','Uma Devi','Ramprasath SV','Vijay','ELANGOVAN','Mohammed Azar','Mike J','Deepak Mahesh','Cynthia Mary','Pamela C'],
-    backup: { initials:'RS', name:'Rautaray Subhashree', role:'Backup – Production Security', bg:'linear-gradient(135deg,#374151,#1f2937)' },
-    backupTeam: ['Abinaya','Javeed','Shakthi','Gokul C']
+    lead: { initials: 'PJ', name: 'Pankaj Joshi', role: 'Production Security', bg: 'linear-gradient(135deg,#059669,#047857)', dept: 'Security' },
+    leadTeam: ['Amol', 'Ritesh', 'Snehal', 'Uma Devi', 'Ramprasath SV', 'Vijay', 'ELANGOVAN', 'Mohammed Azar', 'Mike J', 'Deepak Mahesh', 'Cynthia Mary', 'Pamela C'],
+    backup: { initials: 'RS', name: 'Rautaray Subhashree', role: 'Backup – Production Security', bg: 'linear-gradient(135deg,#374151,#1f2937)' },
+    backupTeam: ['Abinaya', 'Javeed', 'Shakthi', 'Gokul C']
   },
   saktheeswar: {
-    lead: { initials:'SK', name:'Saktheeswar K', role:'IT APS TFD & Telecom', bg:'linear-gradient(135deg,#0369a1,#075985)', dept:'APS · TFD' },
-    leadTeam: ['Aashish Singh','BHAGYASHREE DAS','Divya Rajasekar','Chirag Goel','Karthikeyan S','Mayur More','Nagendraprasanth','Hari Vignesh','Sabarinath M'],
-    backup: { initials:'BK', name:'Koushik B', role:'Backup – IT APS TFD & Telecom', bg:'linear-gradient(135deg,#374151,#1f2937)' },
-    backupTeam: ['S Velavan','Kalaveni','Mayuresh','Alok Singh','Lokesh','SIVAGNANAM']
+    lead: { initials: 'SK', name: 'Saktheeswar K', role: 'IT APS TFD & Telecom', bg: 'linear-gradient(135deg,#0369a1,#075985)', dept: 'APS · TFD' },
+    leadTeam: ['Aashish Singh', 'BHAGYASHREE DAS', 'Divya Rajasekar', 'Chirag Goel', 'Karthikeyan S', 'Mayur More', 'Nagendraprasanth', 'Hari Vignesh', 'Sabarinath M'],
+    backup: { initials: 'BK', name: 'Koushik B', role: 'Backup – IT APS TFD & Telecom', bg: 'linear-gradient(135deg,#374151,#1f2937)' },
+    backupTeam: ['S Velavan', 'Kalaveni', 'Mayuresh', 'Alok Singh', 'Lokesh', 'SIVAGNANAM']
   },
   padma: {
-    lead: { initials:'PP', name:'Padma Priya', role:'IT APS – INV & CHN', bg:'linear-gradient(135deg,#7c3aed,#6d28d9)', dept:'APS · INV' },
-    leadTeam: ['Bharathvaj P','Prakash Gupta','Rohan Pawar','Priyadarsini B','Jagadesh P','Kasi Reddy','Krishna Kumar','Siddhesh Tawde','Kasim Vali','Durga'],
-    backup: { initials:'SR', name:'Sindhu Ravi', role:'Backup – IT APS INV & CHN', bg:'linear-gradient(135deg,#374151,#1f2937)' },
-    backupTeam: ['Siva Krishna','Vandana']
+    lead: { initials: 'PP', name: 'Padma Priya', role: 'IT APS – INV & CHN', bg: 'linear-gradient(135deg,#7c3aed,#6d28d9)', dept: 'APS · INV' },
+    leadTeam: ['Bharathvaj P', 'Prakash Gupta', 'Rohan Pawar', 'Priyadarsini B', 'Jagadesh P', 'Kasi Reddy', 'Krishna Kumar', 'Siddhesh Tawde', 'Kasim Vali', 'Durga'],
+    backup: { initials: 'SR', name: 'Sindhu Ravi', role: 'Backup – IT APS INV & CHN', bg: 'linear-gradient(135deg,#374151,#1f2937)' },
+    backupTeam: ['Siva Krishna', 'Vandana']
   },
   jayapandian: {
-    lead: { initials:'JP', name:'Jayapandian', role:'IT APS-DPRC Manager', bg:'linear-gradient(135deg,#b45309,#92400e)', dept:'APS · DPRC' },
-    leadTeam: ['Lokesh Y','Manju Singha','Raja Ganesh L','Amit Jadhav','Lokesh R','Pradeep PISAL','Tushar Gaikwad','Varsha S','Venkatarao'],
-    backup: { initials:'—', name:'None', role:'No Backup Assigned', bg:'linear-gradient(135deg,#374151,#1f2937)' },
+    lead: { initials: 'JP', name: 'Jayapandian', role: 'IT APS-DPRC Manager', bg: 'linear-gradient(135deg,#b45309,#92400e)', dept: 'APS · DPRC' },
+    leadTeam: ['Lokesh Y', 'Manju Singha', 'Raja Ganesh L', 'Amit Jadhav', 'Lokesh R', 'Pradeep PISAL', 'Tushar Gaikwad', 'Varsha S', 'Venkatarao'],
+    backup: { initials: '—', name: 'None', role: 'No Backup Assigned', bg: 'linear-gradient(135deg,#374151,#1f2937)' },
     backupTeam: []
   },
   prasanna: {
-    lead: { initials:'PJ', name:'Prasanna J', role:'MTS Team Lead', bg:'linear-gradient(135deg,#0d9488,#0f766e)', dept:'MTS' },
-    leadTeam: ['Sai Nagarajan','Vignesh','Harshil P','Shivani U','Chandresh','Sivateja'],
-    backup: { initials:'—', name:'None', role:'No Backup Assigned', bg:'linear-gradient(135deg,#374151,#1f2937)' },
+    lead: { initials: 'PJ', name: 'Prasanna J', role: 'MTS Team Lead', bg: 'linear-gradient(135deg,#0d9488,#0f766e)', dept: 'MTS' },
+    leadTeam: ['Sai Nagarajan', 'Vignesh', 'Harshil P', 'Shivani U', 'Chandresh', 'Sivateja'],
+    backup: { initials: '—', name: 'None', role: 'No Backup Assigned', bg: 'linear-gradient(135deg,#374151,#1f2937)' },
     backupTeam: []
   },
   praveen: {
-    lead: { initials:'PC', name:'Praveen C', role:'IT APS CCDA-AI & ML', bg:'linear-gradient(135deg,#dc2626,#b91c1c)', dept:'APS · AI/ML' },
-    leadTeam: ['Janani J','Jebastin I','Ranjith Venkatesan','Sandeep S','Thanigaivel P','Sangeeta','VIMALADEVI','Gokul KUMAR','Nandhini R'],
-    backup: { initials:'NR', name:'Nandhini R', role:'Backup – CCDA AI & ML', bg:'linear-gradient(135deg,#374151,#1f2937)' },
+    lead: { initials: 'PC', name: 'Praveen C', role: 'IT APS CCDA-AI & ML', bg: 'linear-gradient(135deg,#dc2626,#b91c1c)', dept: 'APS · AI/ML' },
+    leadTeam: ['Janani J', 'Jebastin I', 'Ranjith Venkatesan', 'Sandeep S', 'Thanigaivel P', 'Sangeeta', 'VIMALADEVI', 'Gokul KUMAR', 'Nandhini R'],
+    backup: { initials: 'NR', name: 'Nandhini R', role: 'Backup – CCDA AI & ML', bg: 'linear-gradient(135deg,#374151,#1f2937)' },
     backupTeam: []
   },
   deepesh: {
-    lead: { initials:'DJ', name:'Deepesh Jain', role:'IT APS – DPRC', bg:'linear-gradient(135deg,#0f766e,#0d9488)', dept:'APS · DPRC' },
+    lead: { initials: 'DJ', name: 'Deepesh Jain', role: 'IT APS – DPRC', bg: 'linear-gradient(135deg,#0f766e,#0d9488)', dept: 'APS · DPRC' },
     leadTeam: [],
-    backup: { initials:'—', name:'None', role:'No Backup Assigned', bg:'linear-gradient(135deg,#374151,#1f2937)' },
+    backup: { initials: '—', name: 'None', role: 'No Backup Assigned', bg: 'linear-gradient(135deg,#374151,#1f2937)' },
     backupTeam: []
   },
   virendra: {
-    lead: { initials:'VB', name:'Virendra B', role:'IT CC & CCDA', bg:'linear-gradient(135deg,#ea580c,#c2410c)', dept:'CC · CCDA' },
-    leadTeam: ['Abirami A','Archana','Rajarao','Venkatram R','Abirami P','Abirami T','Rahul C','Karthika S','Mano B'],
-    backup: { initials:'PN', name:'Pratik Nalavade', role:'Backup – IT CC & CCDA', bg:'linear-gradient(135deg,#374151,#1f2937)' },
+    lead: { initials: 'VB', name: 'Virendra B', role: 'IT CC & CCDA', bg: 'linear-gradient(135deg,#ea580c,#c2410c)', dept: 'CC · CCDA' },
+    leadTeam: ['Abirami A', 'Archana', 'Rajarao', 'Venkatram R', 'Abirami P', 'Abirami T', 'Rahul C', 'Karthika S', 'Mano B'],
+    backup: { initials: 'PN', name: 'Pratik Nalavade', role: 'Backup – IT CC & CCDA', bg: 'linear-gradient(135deg,#374151,#1f2937)' },
     backupTeam: []
   },
   jennifer: {
-    lead: { initials:'JS', name:'Jennifer Samson', role:'CC Mumbai TL', bg:'linear-gradient(135deg,#0284c7,#0369a1)', dept:'CC Mumbai' },
-    leadTeam: ['Abhishek','Amar Kumar','Bhaskar Gupta','Bhawana Singh','Sunny Satish','Gaurav Jha','GAURI S','Varun Singh','Mohd Ishaq','Akash Bane'],
-    backup: { initials:'—', name:'None', role:'No Backup Assigned', bg:'linear-gradient(135deg,#374151,#1f2937)' },
+    lead: { initials: 'JS', name: 'Jennifer Samson', role: 'CC Mumbai TL', bg: 'linear-gradient(135deg,#0284c7,#0369a1)', dept: 'CC Mumbai' },
+    leadTeam: ['Abhishek', 'Amar Kumar', 'Bhaskar Gupta', 'Bhawana Singh', 'Sunny Satish', 'Gaurav Jha', 'GAURI S', 'Varun Singh', 'Mohd Ishaq', 'Akash Bane'],
+    backup: { initials: '—', name: 'None', role: 'No Backup Assigned', bg: 'linear-gradient(135deg,#374151,#1f2937)' },
     backupTeam: []
   },
   arunkumar: {
-    lead: { initials:'AR', name:'Arunkumar R', role:'Control Tower Lead', bg:'linear-gradient(135deg,#7c3aed,#5b21b6)', dept:'Control Tower' },
+    lead: { initials: 'AR', name: 'Arunkumar R', role: 'Control Tower Lead', bg: 'linear-gradient(135deg,#7c3aed,#5b21b6)', dept: 'Control Tower' },
     leadTeam: [],
-    backup: { initials:'AA', name:'Abirami A', role:'Backup – Control Tower', bg:'linear-gradient(135deg,#374151,#1f2937)' },
+    backup: { initials: 'AA', name: 'Abirami A', role: 'Backup – Control Tower', bg: 'linear-gradient(135deg,#374151,#1f2937)' },
     backupTeam: []
   },
   ajay: {
-    lead: { initials:'AS', name:'Ajay S Shiva', role:'Control Tower TL', bg:'linear-gradient(135deg,#6d28d9,#4c1d95)', dept:'Control Tower' },
-    leadTeam: ['Sudahar','Raga Swaroopa','Praveen Raja','Jai','Nirmal','Shruthi GOWSKA','Michael','Amrutha','Dinesh V','Akash','Saran'],
-    backup: { initials:'—', name:'None', role:'No Backup Assigned', bg:'linear-gradient(135deg,#374151,#1f2937)' },
+    lead: { initials: 'AS', name: 'Ajay S Shiva', role: 'Control Tower TL', bg: 'linear-gradient(135deg,#6d28d9,#4c1d95)', dept: 'Control Tower' },
+    leadTeam: ['Sudahar', 'Raga Swaroopa', 'Praveen Raja', 'Jai', 'Nirmal', 'Shruthi GOWSKA', 'Michael', 'Amrutha', 'Dinesh V', 'Akash', 'Saran'],
+    backup: { initials: '—', name: 'None', role: 'No Backup Assigned', bg: 'linear-gradient(135deg,#374151,#1f2937)' },
     backupTeam: []
   }
 };
@@ -90,7 +90,7 @@ function openDetail(key) {
     const isExt = status === 'External';
     return `
       <div class="member-pill" style="animation-delay:${index * 40}ms">
-        <div class="pill-av">${name.split(' ').map(w=>w[0]).join('').toUpperCase().slice(0,2)}</div>
+        <div class="pill-av">${name.split(' ').map(w => w[0]).join('').toUpperCase().slice(0, 2)}</div>
         <div class="pill-info">
           <span class="pill-name">${name}</span>
           <span class="pill-type-badge ${isExt ? 'badge-ext' : 'badge-int'}">${status}</span>
@@ -114,7 +114,7 @@ function openDetail(key) {
         </div>
         <div class="ds-divider"></div>
         <div class="member-grid">
-          ${leadTeam.length > 0 ? leadTeam.map((n,i) => pill(n, i)).join('') : '<span style="font-size:0.82rem; color:var(--txt3); font-style:italic;">No direct reportees assigned</span>'}
+          ${leadTeam.length > 0 ? leadTeam.map((n, i) => pill(n, i)).join('') : '<span style="font-size:0.82rem; color:var(--txt3); font-style:italic;">No direct reportees assigned</span>'}
         </div>
       </div>
 
@@ -138,7 +138,7 @@ function openDetail(key) {
         </div>
         <div class="ds-divider backup-divider"></div>
         <div class="member-grid">
-          ${backupTeam.length > 0 ? backupTeam.map((n,i) => pill(n, i + leadTeam.length)).join('') : '<span style="font-size:0.82rem; color:var(--txt3); font-style:italic;">No direct reportees assigned to backup</span>'}
+          ${backupTeam.length > 0 ? backupTeam.map((n, i) => pill(n, i + leadTeam.length)).join('') : '<span style="font-size:0.82rem; color:var(--txt3); font-style:italic;">No direct reportees assigned to backup</span>'}
         </div>
       </div>
 
@@ -181,16 +181,16 @@ document.addEventListener('keydown', e => {
 // ─── MODAL (for manager/service cards) ──────────────────
 const memberData = {
   sneha: {
-    initials:'SB', name:'Sneha Bhattacharjee', role:'BNPP Fortis Manager',
-    dept:'ISPL Production Management', tier:'Tier 1 – Management',
-    directReports:'8 Team Leads', onsiteCounterparts:'Van Laer Andro / Vanbelleghem Bernard / Henroulle Bernard / Van Der Eecken Tom / Del Marmol Carlos',
-    bg:'linear-gradient(135deg,#00965E,#007a4d)', badgeClass:'role-manager'
+    initials: 'SB', name: 'Sneha Bhattacharjee', role: 'BNPP Fortis Manager',
+    dept: 'ISPL Production Management', tier: 'Tier 1 – Management',
+    directReports: '8 Team Leads', onsiteCounterparts: 'Van Laer Andro / Vanbelleghem Bernard / Henroulle Bernard / Van Der Eecken Tom / Del Marmol Carlos',
+    bg: 'linear-gradient(135deg,#00965E,#007a4d)', badgeClass: 'role-manager'
   },
-  niranju:{
-    initials:'NS', name:'Niranju S', role:'Service Manager',
-    dept:'Service Management', tier:'Tier 1 – Service Management',
-    directReports:'—', onsiteCounterparts:'—',
-    bg:'linear-gradient(135deg,#1a56a0,#103d78)', badgeClass:'role-service'
+  niranju: {
+    initials: 'NS', name: 'Niranju S', role: 'Service Manager',
+    dept: 'Service Management', tier: 'Tier 1 – Service Management',
+    directReports: '—', onsiteCounterparts: '—',
+    bg: 'linear-gradient(135deg,#1a56a0,#103d78)', badgeClass: 'role-service'
   }
 };
 
@@ -218,7 +218,7 @@ function svgEl(tag, attrs) {
 }
 
 function drawOrgLines() {
-  const svg    = document.getElementById('org-svg');
+  const svg = document.getElementById('org-svg');
   const canvas = document.getElementById('chart-canvas');
   if (!svg || !canvas) return;
 
@@ -231,35 +231,36 @@ function drawOrgLines() {
     const r = el.getBoundingClientRect();
     el.style.transform = savedTransform;
     return {
-      cx:     Math.round(r.left - cr.left + r.width  / 2),
-      cy:     Math.round(r.top  - cr.top  + r.height / 2),
-      top:    Math.round(r.top    - cr.top),
+      cx: Math.round(r.left - cr.left + r.width / 2),
+      cy: Math.round(r.top - cr.top + r.height / 2),
+      top: Math.round(r.top - cr.top),
       bottom: Math.round(r.bottom - cr.top),
-      left:   Math.round(r.left   - cr.left),
-      right:  Math.round(r.right  - cr.left),
+      left: Math.round(r.left - cr.left),
+      right: Math.round(r.right - cr.left),
     };
   }
 
-  const sneha   = document.getElementById('node-sneha');
+  const sneha = document.getElementById('node-sneha');
   const niranju = document.getElementById('node-niranju');
-  const leadIds = ['node-pankaj','node-saktheeswar','node-padma','node-jayapandian',
-                   'node-praveen','node-deepesh','node-virendra','node-arunkumar'];
+  const leadIds = ['node-pankaj', 'node-saktheeswar', 'node-padma', 'node-jayapandian',
+    'node-praveen', 'node-deepesh', 'node-virendra', 'node-arunkumar'];
   const leadEls = leadIds.map(id => document.getElementById(id)).filter(Boolean);
   if (!sneha || !leadEls.length) return;
 
-  const S       = pos(sneha);
-  const LP      = leadEls.map(pos);
-  const GREEN   = '#00965E';
-  
-  // Vertical stem line height (shorter 20px gap below Sneha)
-  const busY    = S.bottom + 20;
-  const leftX   = Math.min(...LP.map(p => p.cx));
-  const rightX  = Math.max(...LP.map(p => p.cx));
-  
+  const S = pos(sneha);
+  const LP = leadEls.map(pos);
+  const GREEN = '#00965E';
+
+  // Position busY very close to Sneha (very short vertical stem)
+  const minLeadTop = Math.min(...LP.map(p => p.top));
+  const busY = Math.round(S.bottom + (minLeadTop - S.bottom) * (1 / 3.2));
+  const leftX = Math.min(...LP.map(p => p.cx));
+  const rightX = Math.max(...LP.map(p => p.cx));
+
   // Clean triangle arrowhead dimensions
-  const ARR_HW  = 5;   // arrowhead half-width (10px total width)
-  const ARR_H   = 6;   // arrowhead height (6px tall)
-  const BOX_GAP = 4;   // 4px gap outside card top
+  const ARR_HW = 5;   // arrowhead half-width (10px total width)
+  const ARR_H = 6;   // arrowhead height (6px tall)
+  const BOX_GAP = 7;  // 10px gap outside card top
 
   function line(x1, y1, x2, y2, w) {
     svg.appendChild(svgEl('line', {
@@ -298,16 +299,16 @@ function drawOrgLines() {
   // Same style as lead arrows: 2.5px line + standard arrowLeft triangle
   if (niranju) {
     const N = pos(niranju);
-    const tipX       = S.right + 8;           // tip stops 8px outside Sneha's right edge
+    const tipX = S.right + 8;           // tip stops 8px outside Sneha's right edge
     const lineStartX = N.left - 6;            // line starts 6px outside Niranju's left edge
-    const lineEndX   = tipX + ARR_H;          // line ends at arrowhead base
+    const lineEndX = tipX + ARR_H;          // line ends at arrowhead base
     line(lineStartX, S.cy, lineEndX, S.cy, 2.5); // same 2.5px as lead drop lines
     arrowLeft(tipX, S.cy);                    // same standard triangle as leads
   }
 
-  // ── 1. Vertical stem line down from Sneha (3.5px thick) ──
-  line(S.cx, S.bottom, S.cx, busY, 3.5);
-  dot(S.cx, busY, 6);
+  // ── 1. Vertical stem line down from Sneha (1.2px thick) ──
+  line(S.cx, S.bottom, S.cx, busY, 1.2);
+  dot(S.cx, busY, 3.5);
 
   // ── 2. Horizontal bus line (3px thick) ──
   line(leftX, busY, rightX, busY, 3);
@@ -323,7 +324,7 @@ function drawOrgLines() {
     arrowDown(lp.cx, tipY);
   });
 
-  svg.setAttribute('width',  canvas.scrollWidth);
+  svg.setAttribute('width', canvas.scrollWidth);
   svg.setAttribute('height', canvas.scrollHeight);
 }
 
@@ -400,7 +401,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (activeAvatar) {
       activeAvatar.av.style.backgroundImage = '';
       activeAvatar.av.classList.remove('has-photo');
-      try { localStorage.removeItem(activeAvatar.storageKey); } catch (err) {}
+      try { localStorage.removeItem(activeAvatar.storageKey); } catch (err) { }
     }
   });
 
@@ -519,7 +520,7 @@ const TEAM_STORAGE_KEY = 'bnp_org_team_data_v6';
 const MEMBER_TYPES_KEY = 'bnp_org_member_types_v6';
 
 let storedTypes = {};
-try { storedTypes = JSON.parse(localStorage.getItem(MEMBER_TYPES_KEY) || '{}'); } catch(e){}
+try { storedTypes = JSON.parse(localStorage.getItem(MEMBER_TYPES_KEY) || '{}'); } catch (e) { }
 let memberTypes = Object.assign({}, defaultMemberTypes, storedTypes);
 
 function loadPersistedTeamData() {
@@ -533,7 +534,7 @@ function loadPersistedTeamData() {
           teamData[k].backupTeam = parsed[k].backupTeam || teamData[k].backupTeam;
         }
       });
-    } catch(e) {}
+    } catch (e) { }
   }
 }
 loadPersistedTeamData();
