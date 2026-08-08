@@ -66,7 +66,7 @@ const teamData = {
     backupTeam: []
   },
   ajay: {
-    lead: { initials: 'AS', name: 'Ajay S Shiva', role: 'Control Tower TL', bg: 'linear-gradient(135deg,#6d28d9,#4c1d95)', dept: 'Control Tower' },
+    lead: { initials: 'AS', name: 'Ajay S Shiva', role: 'Control Tower TL Chennai', bg: 'linear-gradient(135deg,#6d28d9,#4c1d95)', dept: 'Control Tower' },
     leadTeam: ['Sudahar', 'Raga Swaroopa', 'Praveen Raja', 'Jai', 'Nirmal', 'Shruthi GOWSKA', 'Michael', 'Amrutha', 'Dinesh V', 'Akash', 'Saran'],
     backup: { initials: '—', name: 'None', role: 'No Backup Assigned', bg: 'linear-gradient(135deg,#374151,#1f2937)' },
     backupTeam: []
@@ -464,60 +464,62 @@ document.addEventListener('DOMContentLoaded', () => {
 // ═══════════════════════════════════════════════════════
 
 const defaultMemberTypes = {
-  // People under Subhashree (Pankaj backup):
+  // External People:
+  'Gokul C': 'External',
+  'S Velavan': 'External',
+  'Kalaveni': 'External',
+  'Mayuresh': 'External',
+  'Alok Singh': 'External',
+  'Lokesh': 'External',
+  'SIVAGNANAM': 'External',
+  'Prakash Gupta': 'External',
+  'Siva Krishna': 'External',
+  'Vandana': 'External',
+  'Pradeep PISAL': 'External',
+  'Pradeep Pisal': 'External',
+
+  // Subhashree Team Backups / Externals:
+  'Abinaya': 'External',
+  'Javeed': 'External',
+  'Shakthi': 'External',
+
+  // Internal People (previously mislabeled as external):
+  'Sai Nagarajan': 'Internal',
+  'Vignesh': 'Internal',
+  'Harshil P': 'Internal',
+  'Shivani U': 'Internal',
+  'Chandresh': 'Internal',
+  'Sivateja': 'Internal',
+
+  // Other Team Externals:
   'Hari Vignesh': 'External',
   'Siddhesh Tawde': 'External',
   'Manju Singha': 'External',
   'Lokesh R': 'External',
-  'Pradeep Pisal': 'External',
   'Varsha S': 'External',
-
-  // People under Koushik B (Saktheeswar backup):
   'Balaji Koushik': 'External',
-
-  // People under Sindhu R (Padma backup):
-  'Harshil P': 'External',
-  'Shivani U': 'External',
-  'Chandresh': 'External',
-  'Sivateja': 'External',
-  'Sai Nagarajan': 'External',
-  'Vignesh': 'External',
-
-  // Praveen C team:
   'Sangeeta': 'External',
   'VIMALADEVI': 'External',
   'Vimala Devi': 'External',
   'Gokul KUMAR': 'External',
   'Gokul Kumar': 'External',
-
-  // Virendra B team:
   'Archana': 'External',
-
-  // Ajay S Shiva team:
   'Raga Swaroopa': 'External',
   'Shruthi GOWSKA': 'External',
   'Shruthi Gowsika': 'External',
   'Akash': 'External',
   'Saran': 'External',
 
-  // Additional External Members:
-  'Abinaya': 'External',
-  'Javeed': 'External',
-  'Shakthi': 'External',
-  // Jayapandian Team:
+  // Jayapandian Team Internals:
   'Lokesh Y': 'Internal',
-  'Manju Singha': 'External',
   'Raja Ganesh L': 'Internal',
   'Amit Jadhav': 'Internal',
-  'Lokesh R': 'External',
-  'Pradeep PISAL': 'Internal',
   'Tushar Gaikwad': 'Internal',
-  'Varsha S': 'External',
   'Venkatarao': 'Internal'
 };
 
-const TEAM_STORAGE_KEY = 'bnp_org_team_data_v6';
-const MEMBER_TYPES_KEY = 'bnp_org_member_types_v6';
+const TEAM_STORAGE_KEY = 'bnp_org_team_data_v7';
+const MEMBER_TYPES_KEY = 'bnp_org_member_types_v7';
 
 let storedTypes = {};
 try { storedTypes = JSON.parse(localStorage.getItem(MEMBER_TYPES_KEY) || '{}'); } catch (e) { }
